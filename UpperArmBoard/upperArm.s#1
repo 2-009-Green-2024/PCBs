@@ -1043,7 +1043,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <library name="Teensy_Audioshield">
 <packages>
 <package name="AUDIOSHIELD">
-<hole x="1.905" y="-14.605" drill="2.921"/>
 <hole x="-14.605" y="15.875" drill="2.921"/>
 <pad name="GND" x="-16.51" y="-5.08" drill="1" diameter="1.778" shape="octagon" first="yes"/>
 <pad name="GND_MIC" x="-16.51" y="2.54" drill="1" diameter="1.778"/>
@@ -11566,46 +11565,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="-13" y1="6.5" x2="-13" y2="-6.5" width="0.254" layer="21"/>
 <wire x1="-13" y1="-6.5" x2="0" y2="-6.5" width="0.254" layer="21"/>
 </package>
-<package name="PT01D115DB103">
-<description>&lt;b&gt;12.50mm x 10.00mm&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="0" y="0" drill="1" diameter="1.5" shape="square"/>
-<pad name="2" x="2.5" y="0" drill="1" diameter="1.5"/>
-<pad name="3" x="5" y="0" drill="1" diameter="1.5"/>
-<pad name="4" x="6.9" y="7" drill="2.84" diameter="4.26"/>
-<pad name="5" x="-1.9" y="7" drill="2.84" diameter="4.26"/>
-<text x="2.5" y="5.875" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="2.5" y="5.875" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-2.5" y1="12.5" x2="7.5" y2="12.5" width="0.1" layer="51"/>
-<wire x1="7.5" y1="12.5" x2="7.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="7.5" y1="1.5" x2="-2.5" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="1.5" x2="-2.5" y2="12.5" width="0.1" layer="51"/>
-<wire x1="-5.03" y1="13.5" x2="10.03" y2="13.5" width="0.1" layer="51"/>
-<wire x1="10.03" y1="13.5" x2="10.03" y2="-1.75" width="0.1" layer="51"/>
-<wire x1="10.03" y1="-1.75" x2="-5.03" y2="-1.75" width="0.1" layer="51"/>
-<wire x1="-5.03" y1="-1.75" x2="-5.03" y2="13.5" width="0.1" layer="51"/>
-<wire x1="-2.5" y1="9.54" x2="-2.5" y2="12.5" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="12.5" x2="7.5" y2="12.5" width="0.2" layer="21"/>
-<wire x1="7.5" y1="12.5" x2="7.5" y2="9.54" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="4" x2="-2.5" y2="1.5" width="0.2" layer="21"/>
-<wire x1="-2.5" y1="1.5" x2="7.5" y2="1.5" width="0.2" layer="21"/>
-<wire x1="7.5" y1="1.5" x2="7.5" y2="4" width="0.2" layer="21"/>
-<wire x1="-2.3" y1="1.5" x2="-2.3" y2="1.5" width="0.1" layer="51"/>
-<wire x1="-2.3" y1="1.5" x2="-1.5" y2="0.5" width="0.1" layer="51" curve="102.7"/>
-<wire x1="-1.5" y1="0.5" x2="6.5" y2="0.5" width="0.1" layer="51"/>
-<wire x1="6.5" y1="0.5" x2="6.5" y2="0.5" width="0.1" layer="51"/>
-<wire x1="6.5" y1="0.5" x2="7.3" y2="1.5" width="0.1" layer="51" curve="102.7"/>
-<wire x1="0" y1="-1.2" x2="0" y2="-1.2" width="0.1" layer="21"/>
-<wire x1="0" y1="-1.2" x2="0" y2="-1.3" width="0.1" layer="21" curve="180"/>
-<wire x1="0" y1="-1.3" x2="0" y2="-1.3" width="0.1" layer="21"/>
-<wire x1="0" y1="-1.3" x2="0" y2="-1.2" width="0.1" layer="21" curve="180"/>
-<wire x1="-1.1" y1="0.5" x2="-1.5" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="0.5" x2="-1.5" y2="0.5" width="0.2" layer="21"/>
-<wire x1="-1.5" y1="0.5" x2="-2.3" y2="1.5" width="0.2" layer="21" curve="-102.7"/>
-<wire x1="7.3" y1="1.5" x2="7.3" y2="1.5" width="0.2" layer="21"/>
-<wire x1="7.3" y1="1.5" x2="6.5" y2="0.5" width="0.2" layer="21" curve="-102.7"/>
-<wire x1="6.5" y1="0.5" x2="6.1" y2="0.5" width="0.2" layer="21"/>
-</package>
 <package name="G6K2PYDC12">
 <description>&lt;b&gt;G6K-2P-Y_2&lt;/b&gt;&lt;br&gt;
 </description>
@@ -11668,6 +11627,31 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <wire x1="0.8" y1="-0.4" x2="-0.8" y2="-0.4" width="0.1" layer="51"/>
 <wire x1="-0.8" y1="-0.4" x2="-0.8" y2="0.4" width="0.1" layer="51"/>
 <wire x1="0" y1="0.3" x2="0" y2="-0.3" width="0.2" layer="21"/>
+</package>
+<package name="3310P125103L">
+<description>&lt;b&gt;3310P-125-103L-2&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="0" y="0" drill="0.71" diameter="1.217" shape="square"/>
+<pad name="2" x="2.54" y="2.54" drill="0.71" diameter="1.217"/>
+<pad name="3" x="5.08" y="0" drill="0.71" diameter="1.217"/>
+<text x="2.54" y="-0.065" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="2.54" y="-0.065" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="7.305" y1="4.7" x2="-2.225" y2="4.7" width="0.1" layer="51"/>
+<wire x1="-2.225" y1="4.7" x2="-2.225" y2="-4.83" width="0.1" layer="51"/>
+<wire x1="-2.225" y1="-4.83" x2="7.305" y2="-4.83" width="0.1" layer="51"/>
+<wire x1="7.305" y1="-4.83" x2="7.305" y2="4.7" width="0.1" layer="51"/>
+<wire x1="7.305" y1="4.7" x2="-2.225" y2="4.7" width="0.2" layer="21"/>
+<wire x1="-2.225" y1="4.7" x2="-2.225" y2="-4.83" width="0.2" layer="21"/>
+<wire x1="-2.225" y1="-4.83" x2="7.305" y2="-4.83" width="0.2" layer="21"/>
+<wire x1="7.305" y1="-4.83" x2="7.305" y2="4.7" width="0.2" layer="21"/>
+<wire x1="8.305" y1="5.7" x2="-3.225" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-3.225" y1="5.7" x2="-3.225" y2="-5.83" width="0.1" layer="51"/>
+<wire x1="-3.225" y1="-5.83" x2="8.305" y2="-5.83" width="0.1" layer="51"/>
+<wire x1="8.305" y1="-5.83" x2="8.305" y2="5.7" width="0.1" layer="51"/>
+<wire x1="-2.8" y1="0" x2="-2.8" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.8" y1="0" x2="-2.7" y2="0" width="0.1" layer="21" curve="180"/>
+<wire x1="-2.7" y1="0" x2="-2.7" y2="0" width="0.1" layer="21"/>
+<wire x1="-2.7" y1="0" x2="-2.8" y2="0" width="0.1" layer="21" curve="180"/>
 </package>
 </packages>
 <symbols>
@@ -11777,19 +11761,6 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <pin name="1" x="0" y="-2.54" length="middle"/>
 <pin name="2" x="0" y="0" length="middle"/>
 </symbol>
-<symbol name="PT01-D115D-B103">
-<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="22.86" y2="2.54" width="0.254" layer="94"/>
-<wire x1="22.86" y1="-7.62" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
-<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="CCW" x="0" y="0" length="middle"/>
-<pin name="WIPER" x="0" y="-2.54" length="middle"/>
-<pin name="CW" x="0" y="-5.08" length="middle"/>
-<pin name="MH1" x="27.94" y="-2.54" length="middle" rot="R180"/>
-<pin name="MH2" x="27.94" y="0" length="middle" rot="R180"/>
-</symbol>
 <symbol name="G6K-2P-Y-DC5">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
@@ -11831,6 +11802,17 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <text x="16.51" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
 <pin name="1" x="0" y="0" length="middle"/>
 <pin name="2" x="0" y="-2.54" length="middle"/>
+</symbol>
+<symbol name="3310P-125-103L">
+<wire x1="5.08" y1="2.54" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="22.86" y2="2.54" width="0.254" layer="94"/>
+<wire x1="22.86" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="24.13" y="7.62" size="1.778" layer="95" align="center-left">&gt;NAME</text>
+<text x="24.13" y="5.08" size="1.778" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="CCW" x="0" y="0" length="middle"/>
+<pin name="WIPER" x="27.94" y="0" length="middle" rot="R180"/>
+<pin name="CW" x="0" y="-2.54" length="middle"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -12051,36 +12033,6 @@ Source: &lt;a href="http://switches-connectors-custom.cwind.com/Asset/GPTS203211
 </device>
 </devices>
 </deviceset>
-<deviceset name="PT01-D115D-B103" prefix="VR">
-<description>&lt;b&gt;10k Ohm 1 Gang Linear Through Hole Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://www.cuidevices.com/product/product-resources/pt01.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="PT01-D115D-B103" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="PT01D115DB103">
-<connects>
-<connect gate="G$1" pin="CCW" pad="1"/>
-<connect gate="G$1" pin="CW" pad="3"/>
-<connect gate="G$1" pin="MH1" pad="4"/>
-<connect gate="G$1" pin="MH2" pad="5"/>
-<connect gate="G$1" pin="WIPER" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="" constant="no"/>
-<attribute name="ARROW_PRICE-STOCK" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="10k Ohm 1 Gang Linear Through Hole Potentiometer 1.0 Turns Carbon 0.05W, 1/20W PC Pins" constant="no"/>
-<attribute name="HEIGHT" value="15.5mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="Same Sky" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="PT01-D115D-B103" constant="no"/>
-<attribute name="MOUSER_PART_NUMBER" value="179-PT01-D115D-B103" constant="no"/>
-<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Same-Sky/PT01-D115D-B103?qs=Rp5uXu7WBW%252Bmp1sh9GThaA%3D%3D" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="G6K-2P-Y-DC5" prefix="K">
 <description>&lt;b&gt;Low Signal Relays - PCB ThruHole NoLatch 3.2 DPDT 5VDC 100mW&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -12169,6 +12121,34 @@ Source: &lt;a href="http://www.murata.com/~/media/webrenewal/support/library/cat
 <attribute name="MANUFACTURER_PART_NUMBER" value="BLM18PG471SN1D" constant="no"/>
 <attribute name="MOUSER_PART_NUMBER" value="81-BLM18PG471SN1D" constant="no"/>
 <attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Murata-Electronics/BLM18PG471SN1D?qs=EYzdjubb4S%2FN1Ip39GrHyg%3D%3D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="3310P-125-103L" prefix="VR">
+<description>&lt;b&gt;POT 10K OHM 1/4W PLASTIC LINEAR&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://www.bourns.com/docs/Product-Datasheets/3310.pdf"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="3310P-125-103L" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3310P125103L">
+<connects>
+<connect gate="G$1" pin="CCW" pad="1"/>
+<connect gate="G$1" pin="CW" pad="3"/>
+<connect gate="G$1" pin="WIPER" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="ARROW_PART_NUMBER" value="3310P-125-103L" constant="no"/>
+<attribute name="ARROW_PRICE-STOCK" value="https://www.arrow.com/en/products/3310p-125-103l/bourns?region=nac" constant="no"/>
+<attribute name="DESCRIPTION" value="POT 10K OHM 1/4W PLASTIC LINEAR" constant="no"/>
+<attribute name="HEIGHT" value="18.9mm" constant="no"/>
+<attribute name="MANUFACTURER_NAME" value="Bourns" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="3310P-125-103L" constant="no"/>
+<attribute name="MOUSER_PART_NUMBER" value="652-3310P-125-103L" constant="no"/>
+<attribute name="MOUSER_PRICE-STOCK" value="https://www.mouser.co.uk/ProductDetail/Bourns/3310P-125-103L?qs=%2FALxmKEvhOKZldKKUAf6OQ%3D%3D" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14981,14 +14961,14 @@ Source: www.kingbright.com</description>
 <parts>
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X11" device="" package3d_urn="urn:adsk.eagle:package:22410/2"/>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U$1" library="Teensy_Audioshield" deviceset="AUDIOSHIELD" device=""/>
+<part name="U$1" library="Teensy_Audioshield" deviceset="AUDIOSHIELD" device="" override_package3d_urn="urn:adsk.eagle:package:45882826/2" override_package_urn="urn:adsk.eagle:footprint:45882827/1" override_locally_modified="yes"/>
 <part name="GND2" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R3" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
-<part name="Q3" library="microbuilder" deviceset="MOSFET-N" device="WIDE" value="BSS138"/>
-<part name="Q4" library="microbuilder" deviceset="MOSFET-N" device="WIDE" value="BSS138"/>
+<part name="Q3" library="microbuilder" deviceset="MOSFET-N" device="WIDE" override_package3d_urn="urn:adsk.eagle:package:45882859/2" override_package_urn="urn:adsk.eagle:footprint:45882860/1" value="BSS138"/>
+<part name="Q4" library="microbuilder" deviceset="MOSFET-N" device="WIDE" override_package3d_urn="urn:adsk.eagle:package:45882856/2" override_package_urn="urn:adsk.eagle:footprint:45882857/1" value="BSS138"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY19" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="U8" library="BNO055" deviceset="BNO055" device=""/>
@@ -15025,8 +15005,8 @@ Source: www.kingbright.com</description>
 <part name="JP8" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="IC3" library="SamacSys_Parts" deviceset="PAM8904EGPR" device=""/>
-<part name="IC4" library="SamacSys_Parts" deviceset="DS04-254-2-02BK-SMT" device=""/>
+<part name="IC3" library="SamacSys_Parts" deviceset="PAM8904EGPR" device="" override_package3d_urn="urn:adsk.eagle:package:45882853/2" override_package_urn="urn:adsk.eagle:footprint:45882854/1"/>
+<part name="IC4" library="SamacSys_Parts" deviceset="DS04-254-2-02BK-SMT" device="" override_package3d_urn="urn:adsk.eagle:package:45882831/2" override_package_urn="urn:adsk.eagle:footprint:45882832/1"/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="R4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="10k"/>
@@ -15040,7 +15020,6 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="C4" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
 <part name="C6" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
-<part name="JP9" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39286/1"/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="U1" library="microbuilder" deviceset="MAX4466" device="&quot;&quot;" value="MAX4466EXK+T"/>
 <part name="R6" library="microbuilder" deviceset="RESISTOR" device="0805" value="1K"/>
@@ -15048,20 +15027,14 @@ Source: www.kingbright.com</description>
 <part name="C7" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.1µF"/>
 <part name="C8" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="0.01uF"/>
 <part name="U$3" library="microbuilder" deviceset="AVCC" device=""/>
-<part name="U$4" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="U$8" library="microbuilder" deviceset="AGND" device=""/>
-<part name="U$10" library="microbuilder" deviceset="AGND" device=""/>
 <part name="R8" library="microbuilder" deviceset="RESISTOR" device="0805" value="1K"/>
-<part name="U$12" library="microbuilder" deviceset="AGND" device=""/>
-<part name="U$5" library="microbuilder" deviceset="AGND" device=""/>
 <part name="R9" library="microbuilder" deviceset="RESISTOR" device="0805" value="1M"/>
 <part name="R10" library="microbuilder" deviceset="RESISTOR" device="0805" value="1M"/>
-<part name="U$9" library="microbuilder" deviceset="AGND" device=""/>
-<part name="U$13" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="C9" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="100pF"/>
 <part name="R11" library="microbuilder" deviceset="RESISTOR" device="0805" value="22K"/>
 <part name="C10" library="microbuilder" deviceset="CAP_CERAMIC" device="0805" value="10uF"/>
-<part name="R12" library="3386P-1-104LF" deviceset="3386P-1-104LF" device=""/>
+<part name="R12" library="3386P-1-104LF" deviceset="3386P-1-104LF" device="" override_package3d_urn="urn:adsk.eagle:package:45882968/2" override_package_urn="urn:adsk.eagle:footprint:45882969/1"/>
 <part name="D2" library="SparkFun-LED" deviceset="WS2812" device="_5050"/>
 <part name="D3" library="SparkFun-LED" deviceset="WS2812" device="_5050"/>
 <part name="D4" library="SparkFun-LED" deviceset="WS2812" device="_5050"/>
@@ -15076,13 +15049,13 @@ Source: www.kingbright.com</description>
 <part name="D11" library="SparkFun-LED" deviceset="WS2812" device="_5050"/>
 <part name="SUPPLY11" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND19" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="J2" library="SamacSys_Parts" deviceset="1727052" device=""/>
-<part name="J3" library="SamacSys_Parts" deviceset="1727052" device=""/>
+<part name="J2" library="SamacSys_Parts" deviceset="1727052" device="" override_package3d_urn="urn:adsk.eagle:package:45882959/2" override_package_urn="urn:adsk.eagle:footprint:45882960/1"/>
+<part name="J3" library="SamacSys_Parts" deviceset="1727052" device="" override_package3d_urn="urn:adsk.eagle:package:45882838/3" override_package_urn="urn:adsk.eagle:footprint:45882839/1"/>
 <part name="SUPPLY14" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND22" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND21" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY12" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="J4" library="SamacSys_Parts" deviceset="1727052" device=""/>
+<part name="J4" library="SamacSys_Parts" deviceset="1727052" device="" override_package3d_urn="urn:adsk.eagle:package:45882964/3" override_package_urn="urn:adsk.eagle:footprint:45882965/1"/>
 <part name="GND23" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="D12" library="SamacSys_Parts" deviceset="SK34AQ-LTP" device=""/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -15091,8 +15064,7 @@ Source: www.kingbright.com</description>
 <part name="SUPPLY15" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND24" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="S1" library="SamacSys_Parts" deviceset="GPTS203211B" device=""/>
-<part name="VR2" library="SamacSys_Parts" deviceset="PT01-D115D-B103" device=""/>
+<part name="S1" library="SamacSys_Parts" deviceset="GPTS203211B" device="" override_package3d_urn="urn:adsk.eagle:package:45882811/2" override_package_urn="urn:adsk.eagle:footprint:45882812/1"/>
 <part name="SUPPLY16" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -15116,7 +15088,7 @@ Source: www.kingbright.com</description>
 <part name="TPA_L+" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="TPA_L-" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="R13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/3" value="100"/>
-<part name="K1" library="SamacSys_Parts" deviceset="G6K-2P-Y-DC5" device=""/>
+<part name="K1" library="SamacSys_Parts" deviceset="G6K-2P-Y-DC5" device="" override_package3d_urn="urn:adsk.eagle:package:45882814/2" override_package_urn="urn:adsk.eagle:footprint:45882815/1"/>
 <part name="Q1" library="SamacSys_Parts" deviceset="CSD17575Q3" device=""/>
 <part name="LED2" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0805" package3d_urn="urn:adsk.eagle:package:15818/2" value="RED"/>
 <part name="R23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
@@ -15125,14 +15097,13 @@ Source: www.kingbright.com</description>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="100k"/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="U$18" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
-<part name="U$19" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
+<part name="U$19" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5" override_package3d_urn="urn:adsk.eagle:package:45882824/2" override_package_urn="urn:adsk.eagle:footprint:45882825/1"/>
 <part name="JP14" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_NO-SILK" package3d_urn="urn:adsk.eagle:package:39287/1"/>
 <part name="FB3" library="SamacSys_Parts" deviceset="BLM18PG471SN1D" device=""/>
 <part name="U$6" library="microbuilder" deviceset="AVCC" device=""/>
 <part name="SUPPLY20" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="FB2" library="SamacSys_Parts" deviceset="BLM18PG471SN1D" device=""/>
-<part name="U$2" library="microbuilder" deviceset="AGND" device=""/>
 <part name="GND31" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="VBAT" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="BQ_USB_VBUS" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
@@ -15146,7 +15117,7 @@ Source: www.kingbright.com</description>
 <part name="R14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805" package3d_urn="urn:adsk.eagle:package:23553/2" value="220"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="TP_TXRX" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
-<part name="K2" library="SamacSys_Parts" deviceset="G6K-2P-Y-DC5" device=""/>
+<part name="K2" library="SamacSys_Parts" deviceset="G6K-2P-Y-DC5" device="" override_package3d_urn="urn:adsk.eagle:package:45882955/2" override_package_urn="urn:adsk.eagle:footprint:45882956/1"/>
 <part name="SUPPLY22" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
 <part name="HYD_COM2" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="U$15" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
@@ -15155,6 +15126,34 @@ Source: www.kingbright.com</description>
 <part name="SCLG" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="SDAG" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
 <part name="VBAT1" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="TP" device="B1,27" package3d_urn="urn:adsk.eagle:package:27944/2"/>
+<part name="VR1" library="SamacSys_Parts" deviceset="3310P-125-103L" device="" override_package3d_urn="urn:adsk.eagle:package:45882808/2" override_package_urn="urn:adsk.eagle:footprint:45882809/1"/>
+<part name="U$2" library="microbuilder" deviceset="AGND" device=""/>
+<part name="U$12" library="microbuilder" deviceset="AGND" device=""/>
+<part name="U$9" library="microbuilder" deviceset="AGND" device=""/>
+<part name="U$13" library="microbuilder" deviceset="AVCC" device=""/>
+<part name="U$10" library="microbuilder" deviceset="AGND" device=""/>
+<part name="U$4" library="microbuilder" deviceset="AVCC" device=""/>
+<part name="U$5" library="microbuilder" deviceset="AGND" device=""/>
+<part name="C11" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="0.1uF"/>
+<part name="GND20" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="5V" device=""/>
+<part name="GND32" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="C12" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C13" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C14" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C15" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C22" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C23" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C24" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
+<part name="SUPPLY23" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
+<part name="C28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="1uF"/>
+<part name="C29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:23617/2" value="10uF"/>
 </parts>
 <sheets>
 <sheet>
@@ -15205,11 +15204,11 @@ Decoupling caps for LEDs
 <text x="388.62" y="233.68" size="2.54" layer="91" grouprefs="TXRX_RELAY">TXRX Relay 2</text>
 </plain>
 <instances>
-<instance part="JP1" gate="A" x="132.08" y="350.52" smashed="yes" rot="R90" grouprefs="BQ24074 POWER_MGMT">
+<instance part="JP1" gate="A" x="132.08" y="350.52" smashed="yes" rot="R90" grouprefs="POWER_MGMT BQ24074">
 <attribute name="NAME" x="116.205" y="344.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="149.86" y="344.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND1" gate="1" x="119.38" y="320.04" smashed="yes" rot="R270" grouprefs="BQ24074 POWER_MGMT">
+<instance part="GND1" gate="1" x="119.38" y="320.04" smashed="yes" rot="R270" grouprefs="POWER_MGMT BQ24074">
 <attribute name="VALUE" x="116.586" y="320.04" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="U$1" gate="AUDIO$1" x="55.88" y="246.38" smashed="yes" grouprefs="TEENSY"/>
@@ -15339,28 +15338,28 @@ Decoupling caps for LEDs
 <attribute name="NAME" x="82.55" y="350.52" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="82.55" y="347.98" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="JP4" gate="A" x="190.5" y="350.52" smashed="yes" rot="R90" grouprefs="POWER_MGMT POWERBOOST1K">
+<instance part="JP4" gate="A" x="190.5" y="350.52" smashed="yes" rot="R90" grouprefs="POWERBOOST1K POWER_MGMT">
 <attribute name="NAME" x="179.705" y="344.17" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="200.66" y="344.17" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="SUPPLY2" gate="G$1" x="182.88" y="337.82" smashed="yes" rot="R180" grouprefs="POWER_MGMT POWERBOOST1K">
+<instance part="SUPPLY2" gate="G$1" x="182.88" y="337.82" smashed="yes" rot="R180" grouprefs="POWERBOOST1K POWER_MGMT">
 <attribute name="VALUE" x="182.88" y="335.026" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="GND5" gate="1" x="167.64" y="342.9" smashed="yes" rot="R270" grouprefs="POWER_MGMT POWERBOOST1K">
+<instance part="GND5" gate="1" x="167.64" y="342.9" smashed="yes" rot="R270" grouprefs="POWERBOOST1K POWER_MGMT">
 <attribute name="VALUE" x="164.846" y="342.9" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
 </instance>
 <instance part="C1" gate="G$1" x="30.48" y="340.36" smashed="yes" rot="R180" grouprefs="MAX17048G POWER_MGMT">
 <attribute name="NAME" x="29.464" y="339.725" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="29.464" y="344.551" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND9" gate="1" x="53.34" y="347.98" smashed="yes" rot="R180" grouprefs="MAX17048G POWER_MGMT">
-<attribute name="VALUE" x="58.42" y="348.234" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="GND9" gate="1" x="53.34" y="350.52" smashed="yes" rot="R180" grouprefs="MAX17048G POWER_MGMT">
+<attribute name="VALUE" x="58.42" y="350.774" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
-<instance part="JP8" gate="G$1" x="40.64" y="335.28" smashed="yes" rot="R270" grouprefs="MAX17048G POWER_MGMT">
-<attribute name="NAME" x="42.164" y="329.438" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
+<instance part="JP8" gate="G$1" x="40.64" y="332.74" smashed="yes" rot="R270" grouprefs="MAX17048G POWER_MGMT">
+<attribute name="NAME" x="42.164" y="326.898" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
 </instance>
-<instance part="SUPPLY3" gate="G$1" x="48.26" y="335.28" smashed="yes" rot="R270" grouprefs="MAX17048G POWER_MGMT">
-<attribute name="VALUE" x="51.054" y="335.28" size="1.778" layer="96" rot="R270" align="bottom-center"/>
+<instance part="SUPPLY3" gate="G$1" x="45.72" y="330.2" smashed="yes" rot="R180" grouprefs="MAX17048G POWER_MGMT">
+<attribute name="VALUE" x="45.72" y="327.406" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
 <instance part="GND10" gate="1" x="91.44" y="317.5" smashed="yes" grouprefs="MAX17048G POWER_MGMT">
 <attribute name="VALUE" x="86.36" y="317.246" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -15373,9 +15372,9 @@ Decoupling caps for LEDs
 <attribute name="NAME" x="251.46" y="222.25" size="1.778" layer="95" rot="R90" align="center-left"/>
 <attribute name="VALUE" x="254" y="222.25" size="1.778" layer="96" rot="R90" align="center-left"/>
 </instance>
-<instance part="C2" gate="G$1" x="299.72" y="236.22" smashed="yes" rot="R180" grouprefs="PAM8904">
-<attribute name="NAME" x="298.704" y="235.585" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="298.704" y="240.411" size="1.778" layer="96" rot="R180"/>
+<instance part="C2" gate="G$1" x="299.72" y="238.76" smashed="yes" rot="R180" grouprefs="PAM8904">
+<attribute name="NAME" x="298.704" y="238.125" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="298.704" y="242.951" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="SUPPLY5" gate="G$1" x="246.38" y="226.06" smashed="yes" rot="R90" grouprefs="PAM8904">
 <attribute name="VALUE" x="243.586" y="226.06" size="1.778" layer="96" rot="R90" align="bottom-center"/>
@@ -15394,8 +15393,8 @@ Decoupling caps for LEDs
 <instance part="SUPPLY6" gate="G$1" x="294.64" y="231.14" smashed="yes" grouprefs="PAM8904">
 <attribute name="VALUE" x="294.64" y="233.934" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND13" gate="1" x="299.72" y="243.84" smashed="yes" rot="R180" grouprefs="PAM8904">
-<attribute name="VALUE" x="297.18" y="241.554" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
+<instance part="GND13" gate="1" x="299.72" y="248.92" smashed="yes" rot="R180" grouprefs="PAM8904">
+<attribute name="VALUE" x="297.18" y="246.634" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
 </instance>
 <instance part="GND14" gate="1" x="302.26" y="185.42" smashed="yes" rot="R90" grouprefs="PAM8904">
 <attribute name="VALUE" x="304.8" y="185.674" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
@@ -15417,9 +15416,6 @@ Decoupling caps for LEDs
 <instance part="C6" gate="G$1" x="279.4" y="182.88" smashed="yes" rot="R180" grouprefs="PAM8904">
 <attribute name="NAME" x="278.384" y="182.245" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="278.384" y="187.071" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="JP9" gate="G$1" x="281.94" y="228.6" smashed="yes">
-<attribute name="NAME" x="281.94" y="231.648" size="1.778" layer="95" font="vector" align="center"/>
 </instance>
 <instance part="GND16" gate="1" x="274.32" y="231.14" smashed="yes" rot="R180">
 <attribute name="VALUE" x="271.78" y="228.854" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
@@ -15447,24 +15443,12 @@ Decoupling caps for LEDs
 <instance part="U$3" gate="G$1" x="543.56" y="231.14" smashed="yes" grouprefs="MAX4466">
 <attribute name="VALUE" x="542.036" y="232.156" size="1.27" layer="96"/>
 </instance>
-<instance part="U$4" gate="G$1" x="502.92" y="264.16" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="501.396" y="265.176" size="1.27" layer="96"/>
-</instance>
 <instance part="U$8" gate="G$1" x="543.56" y="205.74" smashed="yes" grouprefs="MAX4466">
 <attribute name="VALUE" x="542.036" y="203.2" size="1.27" layer="96"/>
-</instance>
-<instance part="U$10" gate="G$1" x="510.54" y="231.14" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="509.016" y="228.6" size="1.27" layer="96"/>
 </instance>
 <instance part="R8" gate="G$1" x="530.86" y="187.96" smashed="yes" grouprefs="MAX4466">
 <attribute name="NAME" x="528.32" y="189.992" size="1.27" layer="95" font="vector"/>
 <attribute name="VALUE" x="528.32" y="184.785" size="1.27" layer="96" font="vector"/>
-</instance>
-<instance part="U$12" gate="G$1" x="500.38" y="203.2" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="498.856" y="200.66" size="1.27" layer="96"/>
-</instance>
-<instance part="U$5" gate="G$1" x="523.24" y="172.72" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="521.716" y="170.18" size="1.27" layer="96"/>
 </instance>
 <instance part="R9" gate="G$1" x="525.78" y="213.36" smashed="yes" rot="R90" grouprefs="MAX4466">
 <attribute name="NAME" x="523.748" y="210.82" size="1.27" layer="95" font="vector" rot="R90"/>
@@ -15473,12 +15457,6 @@ Decoupling caps for LEDs
 <instance part="R10" gate="G$1" x="525.78" y="228.6" smashed="yes" rot="R90" grouprefs="MAX4466">
 <attribute name="NAME" x="523.748" y="226.06" size="1.27" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="528.955" y="226.06" size="1.27" layer="96" font="vector" rot="R90"/>
-</instance>
-<instance part="U$9" gate="G$1" x="525.78" y="203.2" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="524.256" y="200.66" size="1.27" layer="96"/>
-</instance>
-<instance part="U$13" gate="G$1" x="525.78" y="238.76" smashed="yes" grouprefs="MAX4466">
-<attribute name="VALUE" x="524.256" y="239.776" size="1.27" layer="96"/>
 </instance>
 <instance part="C9" gate="G$1" x="556.26" y="175.26" smashed="yes" rot="R270" grouprefs="MAX4466">
 <attribute name="NAME" x="558.8" y="172.72" size="1.27" layer="95" font="vector" rot="R270"/>
@@ -15601,15 +15579,11 @@ Decoupling caps for LEDs
 <attribute name="NAME" x="361.95" y="157.48" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="361.95" y="154.94" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="VR2" gate="G$1" x="350.52" y="134.62" smashed="yes" grouprefs="I/O">
-<attribute name="NAME" x="374.65" y="142.24" size="1.778" layer="95" align="center-left"/>
-<attribute name="VALUE" x="374.65" y="139.7" size="1.778" layer="96" align="center-left"/>
+<instance part="SUPPLY16" gate="G$1" x="340.36" y="132.08" smashed="yes" rot="R90" grouprefs="I/O">
+<attribute name="VALUE" x="337.566" y="132.08" size="1.778" layer="96" rot="R90" align="bottom-center"/>
 </instance>
-<instance part="SUPPLY16" gate="G$1" x="347.98" y="134.62" smashed="yes" grouprefs="I/O">
-<attribute name="VALUE" x="347.98" y="137.414" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="GND25" gate="1" x="347.98" y="127" smashed="yes" grouprefs="I/O">
-<attribute name="VALUE" x="347.98" y="124.206" size="1.778" layer="96" font="vector" align="top-center"/>
+<instance part="GND25" gate="1" x="340.36" y="127" smashed="yes" grouprefs="I/O">
+<attribute name="VALUE" x="340.36" y="124.206" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
 <instance part="GND26" gate="1" x="342.9" y="144.78" smashed="yes" grouprefs="I/O">
 <attribute name="VALUE" x="342.9" y="141.986" size="1.778" layer="96" font="vector" align="top-center"/>
@@ -15728,15 +15702,12 @@ Decoupling caps for LEDs
 <attribute name="NAME" x="567.69" y="266.7" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="567.69" y="264.16" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="U$2" gate="G$1" x="543.56" y="259.08" smashed="yes" rot="R270" grouprefs="MAX4466">
-<attribute name="VALUE" x="541.02" y="260.604" size="1.27" layer="96" rot="R270"/>
-</instance>
 <instance part="GND31" gate="1" x="546.1" y="248.92" smashed="yes" grouprefs="MAX4466">
 <attribute name="VALUE" x="546.1" y="246.126" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="VBAT" gate="G$1" x="25.4" y="335.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="24.13" y="334.01" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="26.67" y="336.55" size="1.778" layer="97" rot="R90"/>
+<instance part="VBAT" gate="G$1" x="25.4" y="332.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="24.13" y="331.47" size="1.778" layer="95" rot="R270"/>
+<attribute name="TP_SIGNAL_NAME" x="26.67" y="334.01" size="1.778" layer="97" rot="R90"/>
 </instance>
 <instance part="BQ_USB_VBUS" gate="G$1" x="116.84" y="340.36" smashed="yes" rot="R90">
 <attribute name="NAME" x="113.03" y="341.63" size="1.778" layer="95" rot="R270"/>
@@ -15813,6 +15784,107 @@ Decoupling caps for LEDs
 <attribute name="NAME" x="39.37" y="349.25" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="41.91" y="346.71" size="1.778" layer="97"/>
 </instance>
+<instance part="VR1" gate="G$1" x="342.9" y="132.08" smashed="yes" grouprefs="I/O">
+<attribute name="NAME" x="367.03" y="139.7" size="1.778" layer="95" align="center-left"/>
+<attribute name="VALUE" x="367.03" y="137.16" size="1.778" layer="96" align="center-left"/>
+</instance>
+<instance part="U$2" gate="G$1" x="543.56" y="259.08" smashed="yes" rot="R270">
+<attribute name="VALUE" x="541.02" y="260.604" size="1.27" layer="96" rot="R270"/>
+</instance>
+<instance part="U$12" gate="G$1" x="500.38" y="205.74" smashed="yes">
+<attribute name="VALUE" x="498.856" y="203.2" size="1.27" layer="96"/>
+</instance>
+<instance part="U$9" gate="G$1" x="525.78" y="203.2" smashed="yes">
+<attribute name="VALUE" x="524.256" y="200.66" size="1.27" layer="96"/>
+</instance>
+<instance part="U$13" gate="G$1" x="525.78" y="238.76" smashed="yes">
+<attribute name="VALUE" x="524.256" y="239.776" size="1.27" layer="96"/>
+</instance>
+<instance part="U$10" gate="G$1" x="510.54" y="231.14" smashed="yes">
+<attribute name="VALUE" x="509.016" y="228.6" size="1.27" layer="96"/>
+</instance>
+<instance part="U$4" gate="G$1" x="502.92" y="264.16" smashed="yes">
+<attribute name="VALUE" x="501.396" y="265.176" size="1.27" layer="96"/>
+</instance>
+<instance part="U$5" gate="G$1" x="523.24" y="172.72" smashed="yes">
+<attribute name="VALUE" x="521.716" y="170.18" size="1.27" layer="96"/>
+</instance>
+<instance part="C11" gate="G$1" x="38.1" y="340.36" smashed="yes" rot="R180">
+<attribute name="NAME" x="37.084" y="339.725" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="37.084" y="344.551" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="GND20" gate="1" x="53.34" y="327.66" smashed="yes">
+<attribute name="VALUE" x="55.88" y="327.406" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="SUPPLY9" gate="G$1" x="223.52" y="35.56" smashed="yes" rot="R90" grouprefs="LEDS">
+<attribute name="VALUE" x="220.726" y="35.56" size="1.778" layer="96" rot="R90" align="bottom-center"/>
+</instance>
+<instance part="GND32" gate="1" x="220.98" y="27.94" smashed="yes" rot="R270" grouprefs="LEDS">
+<attribute name="VALUE" x="218.186" y="27.94" size="1.778" layer="96" font="vector" rot="R270" align="top-center"/>
+</instance>
+<instance part="C12" gate="G$1" x="231.14" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="230.124" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="230.124" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C13" gate="G$1" x="238.76" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="237.744" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="237.744" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C14" gate="G$1" x="246.38" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="245.364" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="245.364" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C15" gate="G$1" x="254" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="252.984" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="252.984" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C18" gate="G$1" x="261.62" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="260.604" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="260.604" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C19" gate="G$1" x="269.24" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="268.224" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="268.224" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C20" gate="G$1" x="276.86" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="275.844" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="275.844" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C22" gate="G$1" x="284.48" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="283.464" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="283.464" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C23" gate="G$1" x="292.1" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="291.084" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="291.084" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C24" gate="G$1" x="299.72" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="298.704" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="298.704" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C25" gate="G$1" x="307.34" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="306.324" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="306.324" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C26" gate="G$1" x="314.96" y="30.48" smashed="yes" rot="R180" grouprefs="LEDS">
+<attribute name="NAME" x="313.944" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="313.944" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C27" gate="G$1" x="325.12" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="324.104" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="324.104" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="SUPPLY23" gate="G$1" x="337.82" y="35.56" smashed="yes" rot="R90">
+<attribute name="VALUE" x="322.58" y="35.306" size="1.778" layer="96" rot="R180" align="bottom-center"/>
+</instance>
+<instance part="C28" gate="G$1" x="347.98" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="346.964" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="346.964" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
+<instance part="C29" gate="G$1" x="358.14" y="30.48" smashed="yes" rot="R180">
+<attribute name="NAME" x="357.124" y="29.845" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="357.124" y="34.671" size="1.778" layer="96" rot="R180"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -15820,15 +15892,15 @@ Decoupling caps for LEDs
 <net name="GND" class="2">
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="121.92" y1="347.98" x2="121.92" y2="322.58" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="121.92" y1="347.98" x2="121.92" y2="322.58" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="JP1" gate="A" pin="9"/>
-<wire x1="121.92" y1="322.58" x2="121.92" y2="320.04" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<wire x1="139.7" y1="347.98" x2="139.7" y2="322.58" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<wire x1="139.7" y1="322.58" x2="121.92" y2="322.58" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="121.92" y1="322.58" x2="121.92" y2="320.04" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<wire x1="139.7" y1="347.98" x2="139.7" y2="322.58" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<wire x1="139.7" y1="322.58" x2="121.92" y2="322.58" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
 <pinref part="JP1" gate="A" pin="11"/>
-<wire x1="144.78" y1="347.98" x2="144.78" y2="322.58" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<wire x1="139.7" y1="322.58" x2="144.78" y2="322.58" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="144.78" y1="347.98" x2="144.78" y2="322.58" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<wire x1="139.7" y1="322.58" x2="144.78" y2="322.58" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="AUDIO$1" pin="GND"/>
@@ -15909,29 +15981,29 @@ Decoupling caps for LEDs
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="5"/>
-<wire x1="193.04" y1="347.98" x2="193.04" y2="342.9" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="193.04" y1="347.98" x2="193.04" y2="342.9" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
 <pinref part="JP4" gate="A" pin="2"/>
-<wire x1="185.42" y1="347.98" x2="185.42" y2="342.9" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
-<wire x1="193.04" y1="342.9" x2="185.42" y2="342.9" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
-<wire x1="185.42" y1="342.9" x2="172.72" y2="342.9" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="185.42" y1="347.98" x2="185.42" y2="342.9" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
+<wire x1="193.04" y1="342.9" x2="185.42" y2="342.9" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
+<wire x1="185.42" y1="342.9" x2="172.72" y2="342.9" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <pinref part="5VG" gate="G$1" pin="TP"/>
-<wire x1="172.72" y1="342.9" x2="170.18" y2="342.9" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="172.72" y1="342.9" x2="170.18" y2="342.9" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
 <wire x1="172.72" y1="337.82" x2="172.72" y2="342.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="GND"/>
-<wire x1="55.88" y1="335.28" x2="53.34" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<wire x1="53.34" y1="335.28" x2="53.34" y2="342.9" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="IC2" gate="G$1" pin="CTG"/>
 <wire x1="55.88" y1="342.9" x2="53.34" y2="342.9" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
 <wire x1="53.34" y1="342.9" x2="53.34" y2="345.44" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="C1" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="345.44" x2="40.64" y2="345.44" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="53.34" y1="345.44" x2="53.34" y2="347.98" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="30.48" y1="345.44" x2="38.1" y2="345.44" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
 <pinref part="VBAT1" gate="G$1" pin="TP"/>
-<wire x1="40.64" y1="345.44" x2="53.34" y2="345.44" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<junction x="40.64" y="345.44"/>
+<wire x1="38.1" y1="345.44" x2="40.64" y2="345.44" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<pinref part="C11" gate="G$1" pin="2"/>
+<junction x="38.1" y="345.44"/>
+<wire x1="40.64" y1="345.44" x2="53.34" y2="345.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="G$1" pin="EP"/>
@@ -15953,6 +16025,7 @@ Decoupling caps for LEDs
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND13" gate="1" pin="GND"/>
+<wire x1="299.72" y1="246.38" x2="299.72" y2="243.84" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="IC3" gate="G$1" pin="GND"/>
@@ -15965,9 +16038,9 @@ Decoupling caps for LEDs
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="JP9" gate="G$1" pin="1"/>
-<wire x1="276.86" y1="228.6" x2="274.32" y2="228.6" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
+<pinref part="IC3" gate="G$1" pin="EP"/>
+<wire x1="274.32" y1="228.6" x2="292.1" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="73.66" x2="228.6" y2="73.66" width="0.1524" layer="91" grouprefs="LEDS"/>
@@ -16053,9 +16126,9 @@ Decoupling caps for LEDs
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="VR2" gate="G$1" pin="CW"/>
-<wire x1="350.52" y1="129.54" x2="347.98" y2="129.54" width="0.1524" layer="91" grouprefs="I/O"/>
+<wire x1="342.9" y1="129.54" x2="340.36" y2="129.54" width="0.1524" layer="91" grouprefs="I/O"/>
 <pinref part="GND25" gate="1" pin="GND"/>
+<pinref part="VR1" gate="G$1" pin="CW"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
@@ -16115,72 +16188,127 @@ Decoupling caps for LEDs
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="388.62" y1="203.2" x2="388.62" y2="208.28" width="0.1524" layer="91" grouprefs="TXRX_RELAY"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<wire x1="55.88" y1="335.28" x2="53.34" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="53.34" y1="335.28" x2="53.34" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="GND20" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="GND32" gate="1" pin="GND"/>
+<pinref part="C26" gate="G$1" pin="1"/>
+<wire x1="223.52" y1="27.94" x2="231.14" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<pinref part="C13" gate="G$1" pin="1"/>
+<wire x1="231.14" y1="27.94" x2="238.76" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<wire x1="238.76" y1="27.94" x2="246.38" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="238.76" y="27.94"/>
+<pinref part="C12" gate="G$1" pin="1"/>
+<junction x="231.14" y="27.94"/>
+<pinref part="C14" gate="G$1" pin="1"/>
+<wire x1="246.38" y1="27.94" x2="254" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="246.38" y="27.94"/>
+<pinref part="C15" gate="G$1" pin="1"/>
+<wire x1="254" y1="27.94" x2="261.62" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="254" y="27.94"/>
+<pinref part="C18" gate="G$1" pin="1"/>
+<wire x1="261.62" y1="27.94" x2="269.24" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="261.62" y="27.94"/>
+<pinref part="C19" gate="G$1" pin="1"/>
+<wire x1="269.24" y1="27.94" x2="276.86" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="269.24" y="27.94"/>
+<pinref part="C20" gate="G$1" pin="1"/>
+<wire x1="276.86" y1="27.94" x2="284.48" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="276.86" y="27.94"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="284.48" y1="27.94" x2="292.1" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="284.48" y="27.94"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="292.1" y1="27.94" x2="299.72" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="292.1" y="27.94"/>
+<pinref part="C24" gate="G$1" pin="1"/>
+<wire x1="299.72" y1="27.94" x2="307.34" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="299.72" y="27.94"/>
+<pinref part="C25" gate="G$1" pin="1"/>
+<wire x1="307.34" y1="27.94" x2="314.96" y2="27.94" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="307.34" y="27.94"/>
+<pinref part="C27" gate="G$1" pin="1"/>
+<wire x1="314.96" y1="27.94" x2="325.12" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C29" gate="G$1" pin="1"/>
+<wire x1="325.12" y1="27.94" x2="347.98" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="1"/>
+<wire x1="347.98" y1="27.94" x2="358.14" y2="27.94" width="0.1524" layer="91"/>
+<junction x="347.98" y="27.94"/>
+</segment>
 </net>
 <net name="BQ_THERM" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="124.46" y1="347.98" x2="124.46" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="124.46" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="124.46" y1="347.98" x2="124.46" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="124.46" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 </net>
 <net name="BQ_ISET" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="127" y1="347.98" x2="127" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="127" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="127" y1="347.98" x2="127" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="127" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 </net>
 <net name="BQ_CE" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="5"/>
-<wire x1="129.54" y1="347.98" x2="129.54" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="129.54" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="129.54" y1="347.98" x2="129.54" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="129.54" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 </net>
 <net name="BQ_PGOOD" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="6"/>
-<wire x1="132.08" y1="347.98" x2="132.08" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="132.08" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="132.08" y1="347.98" x2="132.08" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="132.08" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 </net>
 <net name="BQ_CHG" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="7"/>
-<wire x1="134.62" y1="347.98" x2="134.62" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="134.62" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="134.62" y1="347.98" x2="134.62" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="134.62" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 </net>
 <net name="BQ_LOAD_OUT" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="8"/>
-<wire x1="137.16" y1="347.98" x2="137.16" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="137.16" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="137.16" y1="347.98" x2="137.16" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="137.16" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="6"/>
-<wire x1="195.58" y1="347.98" x2="195.58" y2="340.36" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
-<label x="195.58" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="195.58" y1="347.98" x2="195.58" y2="340.36" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
+<label x="195.58" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWERBOOST1K POWER_MGMT"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="10"/>
-<wire x1="142.24" y1="347.98" x2="142.24" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="142.24" y1="347.98" x2="142.24" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
 <label x="142.24" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VDD"/>
-<wire x1="55.88" y1="337.82" x2="35.56" y2="337.82" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
 <pinref part="JP8" gate="G$1" pin="3"/>
-<wire x1="35.56" y1="337.82" x2="35.56" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<wire x1="35.56" y1="335.28" x2="30.48" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="35.56" y1="332.74" x2="30.48" y2="332.74" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="335.28" x2="30.48" y2="337.82" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<wire x1="30.48" y1="335.28" x2="30.48" y2="332.74" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
-<label x="30.48" y="332.74" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="30.48" y1="332.74" x2="30.48" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<label x="30.48" y="330.2" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="MAX17048G POWER_MGMT"/>
 <pinref part="VBAT" gate="G$1" pin="TP"/>
-<wire x1="27.94" y1="335.28" x2="30.48" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="335.28" x2="30.48" y2="337.82" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="27.94" y1="332.74" x2="30.48" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="332.74" x2="30.48" y2="330.2" width="0.1524" layer="91"/>
+<pinref part="C11" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="337.82" x2="38.1" y2="340.36" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="CELL"/>
+<wire x1="38.1" y1="340.36" x2="55.88" y2="340.36" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="337.82" x2="38.1" y2="335.28" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="335.28" x2="30.48" y2="335.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="1"/>
@@ -16243,10 +16371,10 @@ Decoupling caps for LEDs
 <net name="BQ_USB_VBUS" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="119.38" y1="347.98" x2="119.38" y2="340.36" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
-<label x="119.38" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="119.38" y1="347.98" x2="119.38" y2="340.36" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
+<label x="119.38" y="337.82" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT BQ24074"/>
 <pinref part="BQ_USB_VBUS" gate="G$1" pin="TP"/>
-<wire x1="119.38" y1="340.36" x2="119.38" y2="337.82" width="0.1524" layer="91" grouprefs="BQ24074 POWER_MGMT"/>
+<wire x1="119.38" y1="340.36" x2="119.38" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT BQ24074"/>
 <junction x="119.38" y="340.36"/>
 </segment>
 <segment>
@@ -16277,10 +16405,10 @@ Decoupling caps for LEDs
 </segment>
 <segment>
 <pinref part="JP4" gate="A" pin="1"/>
-<wire x1="182.88" y1="347.98" x2="182.88" y2="340.36" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="182.88" y1="347.98" x2="182.88" y2="340.36" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
 <pinref part="SUPPLY2" gate="G$1" pin="5V"/>
 <pinref part="5V" gate="G$1" pin="TP"/>
-<wire x1="182.88" y1="340.36" x2="182.88" y2="337.82" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="182.88" y1="340.36" x2="182.88" y2="337.82" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
 <wire x1="180.34" y1="340.36" x2="182.88" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16368,6 +16496,46 @@ Decoupling caps for LEDs
 <wire x1="388.62" y1="228.6" x2="383.54" y2="228.6" width="0.1524" layer="91" grouprefs="TXRX_RELAY"/>
 <pinref part="SUPPLY22" gate="G$1" pin="5V"/>
 </segment>
+<segment>
+<pinref part="SUPPLY9" gate="G$1" pin="5V"/>
+<pinref part="C26" gate="G$1" pin="2"/>
+<wire x1="223.52" y1="35.56" x2="231.14" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<pinref part="C13" gate="G$1" pin="2"/>
+<wire x1="231.14" y1="35.56" x2="238.76" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<wire x1="238.76" y1="35.56" x2="246.38" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="238.76" y="35.56"/>
+<pinref part="C12" gate="G$1" pin="2"/>
+<junction x="231.14" y="35.56"/>
+<pinref part="C14" gate="G$1" pin="2"/>
+<wire x1="246.38" y1="35.56" x2="254" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="246.38" y="35.56"/>
+<pinref part="C15" gate="G$1" pin="2"/>
+<wire x1="254" y1="35.56" x2="261.62" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="254" y="35.56"/>
+<pinref part="C18" gate="G$1" pin="2"/>
+<wire x1="261.62" y1="35.56" x2="269.24" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="261.62" y="35.56"/>
+<pinref part="C19" gate="G$1" pin="2"/>
+<wire x1="269.24" y1="35.56" x2="276.86" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="269.24" y="35.56"/>
+<pinref part="C20" gate="G$1" pin="2"/>
+<wire x1="276.86" y1="35.56" x2="284.48" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="276.86" y="35.56"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="284.48" y1="35.56" x2="292.1" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="284.48" y="35.56"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="292.1" y1="35.56" x2="299.72" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="292.1" y="35.56"/>
+<pinref part="C24" gate="G$1" pin="2"/>
+<wire x1="299.72" y1="35.56" x2="307.34" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="299.72" y="35.56"/>
+<pinref part="C25" gate="G$1" pin="2"/>
+<wire x1="307.34" y1="35.56" x2="314.96" y2="35.56" width="0.1524" layer="91" grouprefs="LEDS"/>
+<junction x="307.34" y="35.56"/>
+<pinref part="C27" gate="G$1" pin="2"/>
+<wire x1="314.96" y1="35.56" x2="325.12" y2="35.56" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="3.3V" class="2">
 <segment>
@@ -16408,7 +16576,7 @@ Decoupling caps for LEDs
 <segment>
 <pinref part="SUPPLY3" gate="G$1" pin="3.3V"/>
 <pinref part="JP8" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="335.28" x2="45.72" y2="335.28" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="45.72" y1="330.2" x2="45.72" y2="332.74" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
@@ -16424,9 +16592,9 @@ Decoupling caps for LEDs
 <junction x="35.56" y="274.32" grouprefs="TEENSY"/>
 </segment>
 <segment>
-<pinref part="VR2" gate="G$1" pin="CCW"/>
-<wire x1="350.52" y1="134.62" x2="347.98" y2="134.62" width="0.1524" layer="91" grouprefs="I/O"/>
 <pinref part="SUPPLY16" gate="G$1" pin="3.3V"/>
+<pinref part="VR1" gate="G$1" pin="CCW"/>
+<wire x1="342.9" y1="132.08" x2="340.36" y2="132.08" width="0.1524" layer="91" grouprefs="I/O"/>
 </segment>
 <segment>
 <pinref part="U$7" gate="A" pin="10"/>
@@ -16437,6 +16605,14 @@ Decoupling caps for LEDs
 <pinref part="JP14" gate="G$1" pin="3"/>
 <pinref part="SUPPLY21" gate="G$1" pin="3.3V"/>
 <wire x1="581.66" y1="246.38" x2="579.12" y2="246.38" width="0.1524" layer="91" grouprefs="MAX4466"/>
+</segment>
+<segment>
+<pinref part="SUPPLY23" gate="G$1" pin="3.3V"/>
+<pinref part="C29" gate="G$1" pin="2"/>
+<wire x1="337.82" y1="35.56" x2="347.98" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="347.98" y1="35.56" x2="358.14" y2="35.56" width="0.1524" layer="91"/>
+<junction x="347.98" y="35.56"/>
 </segment>
 </net>
 <net name="SCL_5V" class="0">
@@ -16605,8 +16781,8 @@ Decoupling caps for LEDs
 <net name="PB1K_EN" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="4"/>
-<wire x1="190.5" y1="347.98" x2="190.5" y2="340.36" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
-<label x="190.5" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT POWERBOOST1K"/>
+<wire x1="190.5" y1="347.98" x2="190.5" y2="340.36" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
+<label x="190.5" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWERBOOST1K POWER_MGMT"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="5"/>
@@ -16622,15 +16798,8 @@ Decoupling caps for LEDs
 <net name="PB1K_LB" class="0">
 <segment>
 <pinref part="JP4" gate="A" pin="3"/>
-<wire x1="187.96" y1="347.98" x2="187.96" y2="340.36" width="0.1524" layer="91" grouprefs="POWER_MGMT POWERBOOST1K"/>
-<label x="187.96" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWER_MGMT POWERBOOST1K"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="IC2" gate="G$1" pin="CELL"/>
-<pinref part="JP8" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="340.36" x2="40.64" y2="340.36" width="0.1524" layer="91" grouprefs="MAX17048G POWER_MGMT"/>
+<wire x1="187.96" y1="347.98" x2="187.96" y2="340.36" width="0.1524" layer="91" grouprefs="POWERBOOST1K POWER_MGMT"/>
+<label x="187.96" y="340.36" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="POWERBOOST1K POWER_MGMT"/>
 </segment>
 </net>
 <net name="HYD_TX_OUT2" class="0">
@@ -16691,7 +16860,7 @@ Decoupling caps for LEDs
 <segment>
 <pinref part="C2" gate="G$1" pin="1"/>
 <pinref part="IC3" gate="G$1" pin="VOUT"/>
-<wire x1="299.72" y1="233.68" x2="299.72" y2="228.6" width="0.1524" layer="91" grouprefs="PAM8904"/>
+<wire x1="299.72" y1="236.22" x2="299.72" y2="228.6" width="0.1524" layer="91" grouprefs="PAM8904"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -16783,13 +16952,6 @@ Decoupling caps for LEDs
 <wire x1="297.18" y1="231.14" x2="304.8" y2="231.14" width="0.1524" layer="91" grouprefs="PAM8904"/>
 </segment>
 </net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="IC3" gate="G$1" pin="EP"/>
-<pinref part="JP9" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="228.6" x2="287.02" y2="228.6" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$16" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="1"/>
@@ -16823,27 +16985,22 @@ Decoupling caps for LEDs
 <wire x1="543.56" y1="226.06" x2="543.56" y2="228.6" width="0.1524" layer="91" grouprefs="MAX4466"/>
 </segment>
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
-<pinref part="U$4" gate="G$1" pin="AVCC"/>
-<wire x1="502.92" y1="259.08" x2="502.92" y2="261.62" width="0.1524" layer="91" grouprefs="MAX4466"/>
-</segment>
-<segment>
-<pinref part="U$13" gate="G$1" pin="AVCC"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="525.78" y1="236.22" x2="525.78" y2="233.68" width="0.1524" layer="91" grouprefs="MAX4466"/>
-</segment>
-<segment>
 <pinref part="FB3" gate="G$1" pin="1"/>
 <pinref part="U$6" gate="G$1" pin="AVCC"/>
 <wire x1="591.82" y1="259.08" x2="584.2" y2="259.08" width="0.1524" layer="91" grouprefs="MAX4466"/>
 </segment>
+<segment>
+<pinref part="R10" gate="G$1" pin="2"/>
+<wire x1="525.78" y1="236.22" x2="525.78" y2="233.68" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$13" gate="G$1" pin="AVCC"/>
+</segment>
+<segment>
+<pinref part="R7" gate="G$1" pin="2"/>
+<wire x1="502.92" y1="259.08" x2="502.92" y2="261.62" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$4" gate="G$1" pin="AVCC"/>
+</segment>
 </net>
 <net name="AGND" class="0">
-<segment>
-<pinref part="C7" gate="G$1" pin="P$2"/>
-<pinref part="U$10" gate="G$1" pin="AGND"/>
-<wire x1="510.54" y1="236.22" x2="510.54" y2="233.68" width="0.1524" layer="91" grouprefs="MAX4466"/>
-</segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="U$8" gate="G$1" pin="AGND"/>
@@ -16851,19 +17008,24 @@ Decoupling caps for LEDs
 <wire x1="543.56" y1="210.82" x2="543.56" y2="208.28" width="0.1524" layer="91" grouprefs="MAX4466"/>
 </segment>
 <segment>
+<pinref part="FB2" gate="G$1" pin="1"/>
+<wire x1="546.1" y1="259.08" x2="551.18" y2="259.08" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$2" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
 <pinref part="R9" gate="G$1" pin="1"/>
-<pinref part="U$9" gate="G$1" pin="AGND"/>
 <wire x1="525.78" y1="208.28" x2="525.78" y2="205.74" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$9" gate="G$1" pin="AGND"/>
+</segment>
+<segment>
+<pinref part="C7" gate="G$1" pin="P$2"/>
+<wire x1="510.54" y1="236.22" x2="510.54" y2="233.68" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$10" gate="G$1" pin="AGND"/>
 </segment>
 <segment>
 <pinref part="C10" gate="G$1" pin="P$2"/>
-<pinref part="U$5" gate="G$1" pin="AGND"/>
 <wire x1="523.24" y1="177.8" x2="523.24" y2="175.26" width="0.1524" layer="91" grouprefs="MAX4466"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="AGND"/>
-<pinref part="FB2" gate="G$1" pin="1"/>
-<wire x1="546.1" y1="259.08" x2="551.18" y2="259.08" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<pinref part="U$5" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$19" class="0">
@@ -16980,9 +17142,9 @@ Decoupling caps for LEDs
 <label x="35.56" y="236.22" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="TEENSY"/>
 </segment>
 <segment>
-<pinref part="VR2" gate="G$1" pin="WIPER"/>
-<wire x1="350.52" y1="132.08" x2="345.44" y2="132.08" width="0.1524" layer="91" grouprefs="I/O"/>
-<label x="345.44" y="132.08" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="I/O"/>
+<wire x1="370.84" y1="132.08" x2="370.84" y2="127" width="0.1524" layer="91" grouprefs="I/O"/>
+<label x="370.84" y="127" size="1.27" layer="95" rot="R270" xref="yes" grouprefs="I/O"/>
+<pinref part="VR1" gate="G$1" pin="WIPER"/>
 </segment>
 </net>
 <net name="BONECOND_+" class="0">
@@ -17212,15 +17374,15 @@ Decoupling caps for LEDs
 </net>
 <net name="HYD_RX_IN2" class="0">
 <segment>
-<wire x1="497.84" y1="218.44" x2="500.38" y2="218.44" width="0.1524" layer="91" grouprefs="MAX4466"/>
-<wire x1="500.38" y1="218.44" x2="500.38" y2="205.74" width="0.1524" layer="91" grouprefs="MAX4466"/>
-<pinref part="U$12" gate="G$1" pin="AGND"/>
-<label x="497.84" y="218.44" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="MAX4466"/>
-</segment>
-<segment>
 <wire x1="388.62" y1="226.06" x2="386.08" y2="226.06" width="0.1524" layer="91" grouprefs="TXRX_RELAY"/>
 <label x="386.08" y="226.06" size="1.27" layer="95" rot="MR0" xref="yes" grouprefs="TXRX_RELAY"/>
 <pinref part="K2" gate="G$1" pin="NC_1"/>
+</segment>
+<segment>
+<wire x1="497.84" y1="218.44" x2="500.38" y2="218.44" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<wire x1="500.38" y1="218.44" x2="500.38" y2="208.28" width="0.1524" layer="91" grouprefs="MAX4466"/>
+<label x="497.84" y="218.44" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="MAX4466"/>
+<pinref part="U$12" gate="G$1" pin="AGND"/>
 </segment>
 </net>
 <net name="N$81" class="0">
@@ -17251,6 +17413,11 @@ Decoupling caps for LEDs
 <junction x="368.3" y="195.58" grouprefs="TXRX_RELAY"/>
 <pinref part="TP_TXRX" gate="G$1" pin="TP"/>
 <label x="365.76" y="195.58" size="1.27" layer="95" rot="R180" xref="yes" grouprefs="TXRX_RELAY"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="AUDIO$1" pin="4"/>
+<wire x1="38.1" y1="261.62" x2="35.56" y2="261.62" width="0.1524" layer="91"/>
+<label x="35.56" y="261.62" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$82" class="0">
@@ -17352,6 +17519,13 @@ Decoupling caps for LEDs
 <pinref part="D1" gate="G$1" pin="DI"/>
 </segment>
 </net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="JP8" gate="G$1" pin="2"/>
+<pinref part="IC2" gate="G$1" pin="VDD"/>
+<wire x1="40.64" y1="337.82" x2="55.88" y2="337.82" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
@@ -17380,6 +17554,11 @@ packages will not be understood (or retained) with this version.
 <note version="9.5" severity="warning">
 Since Version 9.5, EAGLE supports persistent groups with
 schematics, and board files. Those persistent groups
+will not be understood (or retained) with this version.
+</note>
+<note version="9.4" severity="warning">
+Since Version 9.4, EAGLE supports the overriding of 3D packages
+in schematics and board files. Those overridden 3d packages
 will not be understood (or retained) with this version.
 </note>
 </compatibility>
