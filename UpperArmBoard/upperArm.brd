@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
@@ -28,11 +28,11 @@
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
@@ -46,7 +46,7 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
@@ -188,7 +188,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZjRkMWRk" projecturn="a.cGVyc29uYWw6dWUyZmI1NjZjIzIwMjQxMDEwODE2ODM0MjMx" f3durn="urn:adsk.wipprod:dm.lineage:o7dc4hTtSS2T938IHseZGg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b6076058-0547-4583-a924-cfe44deb3874" lastsyncedrevisionid="b6076058-0547-4583-a924-cfe44deb3874" lastboardhashguid="7c9d2898-7b1e-a812-eccb-486b56c2d5e5" lastpushedtime="2024-11-25T19:32:36Z" linktopcb3d="false"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZjRkMWRk" projecturn="a.cGVyc29uYWw6dWUyZmI1NjZjIzIwMjQxMDEwODE2ODM0MjMx" f3durn="urn:adsk.wipprod:dm.lineage:o7dc4hTtSS2T938IHseZGg" pcbguid="" lastpulledtime="" lastsyncedchangeguid="" latestrevisionid="b6076058-0547-4583-a924-cfe44deb3874" lastsyncedrevisionid="b6076058-0547-4583-a924-cfe44deb3874" lastboardhashguid="7c9d2898-7b1e-a812-eccb-486b56c2d5e5" lastpushedtime="2024-11-25T19:32:36Z" linktopcb3d="true"/>
 <plain>
 <wire x1="0.762" y1="17.9832" x2="96.6978" y2="18.0086" width="0" layer="20"/>
 <wire x1="97.4598" y1="18.7706" x2="97.4598" y2="79.2226" width="0" layer="20"/>

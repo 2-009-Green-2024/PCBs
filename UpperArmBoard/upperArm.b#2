@@ -7488,9 +7488,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="-2.54" y="16.51"/>
 </polygon>
 <polygon width="0.2032" layer="1">
-<vertex x="-2.54" y="73.66"/>
-<vertex x="38.1" y="73.66"/>
-<vertex x="38.1" y="82.55"/>
+<vertex x="-2.54" y="54.61"/>
+<vertex x="17.78" y="54.61"/>
+<vertex x="17.78" y="72.39"/>
+<vertex x="36.83" y="72.39"/>
+<vertex x="36.83" y="82.55"/>
 <vertex x="-2.54" y="82.55"/>
 </polygon>
 </signal>

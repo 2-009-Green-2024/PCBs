@@ -7473,6 +7473,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="47.19341875" y1="46.35218125" x2="46.365" y2="46.35218125" width="0.2032" layer="16"/>
 <wire x1="69.85" y1="54.61" x2="68.2879" y2="53.0479" width="1.27" layer="1"/>
 <wire x1="68.2879" y1="53.0479" x2="66.04" y2="53.0479" width="1.27" layer="1"/>
+<polygon width="0.2032" layer="1">
+<vertex x="-1.27" y="81.28"/>
+<vertex x="99.06" y="81.28"/>
+<vertex x="99.06" y="16.51"/>
+<vertex x="-1.27" y="16.51"/>
+</polygon>
+<polygon width="0.2032" layer="16">
+<vertex x="-1.27" y="81.28"/>
+<vertex x="99.06" y="81.28"/>
+<vertex x="99.06" y="16.51"/>
+<vertex x="-1.27" y="16.51"/>
+</polygon>
 </signal>
 <signal name="BQ_THERM">
 <contactref element="JP1" pad="3"/>

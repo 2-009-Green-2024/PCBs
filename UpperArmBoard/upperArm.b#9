@@ -905,10 +905,10 @@ Adj</text>
 <text x="38.481" y="76.835" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">5V</text>
 <text x="38.989" y="73.533" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">3.3V</text>
 <text x="38.1" y="70.231" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">GND</text>
-<text x="10.541" y="34.544" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">L+</text>
-<text x="10.16" y="32.131" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">L-</text>
-<text x="9.652" y="29.718" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">R+</text>
-<text x="8.636" y="27.94" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">R-</text>
+<text x="11.811" y="34.544" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">L+</text>
+<text x="11.43" y="32.131" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">L-</text>
+<text x="10.922" y="29.718" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">R+</text>
+<text x="9.906" y="27.94" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">R-</text>
 <text x="85.471" y="33.02" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">VBAT</text>
 <text x="85.598" y="29.718" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="bottom-center">GND</text>
 <text x="37.084" y="25.908" size="0.889" layer="21" font="vector" ratio="15" rot="SR0" align="bottom-center">GND</text>
